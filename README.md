@@ -1,2 +1,0 @@
-# codeshala
-aditya repo
