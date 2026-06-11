@@ -1,29 +1,31 @@
-#num1 = int(input("enter number"))
-#num2 = int(input("enter number"))
-#operator = input("+,-,*,/")
-#def calc(num1,num2,operator):
- #if operator == "+":
-  #return( num1 + num2)
- #elif operator == "-":
-  #return("your sub is", num1 - num2)
- #elif operator == "*":
-  #return("your multiple is", num1 * num2)
- #elif operator == "/":
-  #return("your divide is",num1/num2)
+num1 = int(input("enter number : "))
+num2 = int(input("enter number : "))
+operator = input("+,-,*,/ : ")
+def calc(num1,num2,operator):
+ if operator == "+":
+  return( num1 + num2)
+ elif operator == "-":
+  return("your sub is", num1 - num2)
+ elif operator == "*":
+  return("your multiple is", num1 * num2)
+ elif operator == "/":
+  return("your divide is",num1/num2)
  
 
-#print (calc(num1,num2,operator))
+print (calc(num1,num2,operator))
 
 
-no_of_times = int(input("enter loop value : "))
- 
-def celcius_to_farhenheit(celcius):
- return (celcius*9/5)+32
+#no_of_times = int(input("enter loop value : "))
 
-while  (no_of_times):
- celcius = float(input("enter value : "))
+#def celcius_to_farhenheit(celcius):
+ #return (celcius*9/5)+32
 
- no_of_times -= 1
- print (celcius_to_farhenheit(celcius))
+#while  (no_of_times):
+# celcius = float(input("enter value : "))
 
+ #no_of_times -= 1
+ #print (celcius_to_farhenheit(celcius))
+
+
+#password
 
