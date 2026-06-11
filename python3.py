@@ -15,11 +15,15 @@
 #print (calc(num1,num2,operator))
 
 
-#celcious to fahrenheit
+no_of_times = int(input("enter loop value : "))
+ 
+def celcius_to_farhenheit(celcius):
+ return (celcius*9/5)+32
 
-celcious = int(input("enter celcious value"))
-def celcious_to_fahrenheit(celcious):
-   print(celcious*9/5)+32
+while  (no_of_times):
+ celcius = float(input("enter value : "))
 
-while (celcious)
-  
+ no_of_times -= 1
+ print (celcius_to_farhenheit(celcius))
+
+
