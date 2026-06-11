@@ -33,10 +33,12 @@ password = input("enter the password : ")
 
 def is_strong_password(password):
    
-   if len(password)>8:
+   if len(password)<8:
      return True
-   elif len(password)<8:
+   elif len(password)>8:
     return False
+   elif ("character present"):
+     return True
    elif ("number present"):
     return False
   
